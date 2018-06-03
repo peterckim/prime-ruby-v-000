@@ -6,8 +6,12 @@ def prime?(input)
     count += 1
   end
   
+  if input <= 1
+    return false
+  end
+  
   list.each do |number|
-    if input % number == 0 || input <= 1
+    if input % number == 0
       return false
     end
   end
