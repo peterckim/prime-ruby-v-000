@@ -18,4 +18,4 @@ def prime?(input)
   return true
 end
 
-puts prime?(0)
+puts prime?(1)
