@@ -7,7 +7,9 @@ def prime?(input)
   end
   
   list.each do |number|
-    return false if input % number == 0 || input <= 1
+    if input % number == 0 || input <= 1
+      return
+    end
   end
   return true
 end
