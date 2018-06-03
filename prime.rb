@@ -17,5 +17,3 @@ def prime?(input)
   end
   return true
 end
-
-puts prime?(2)
