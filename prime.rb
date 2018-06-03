@@ -8,8 +8,10 @@ def prime?(input)
   
   list.each do |number|
     if input % number == 0 || input <= 1
-      return
+      return false
     end
   end
   return true
 end
+
+prime?(-1)
