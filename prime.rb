@@ -14,4 +14,4 @@ def prime?(input)
   return true
 end
 
-prime?(-1)
+puts prime?(-1)
