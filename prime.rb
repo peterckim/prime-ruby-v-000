@@ -10,6 +10,7 @@ def prime?(input)
     return false if input % number == 0
     return false if input == -1
     return false if input == 1
+    return false if input == 0
   end
   return true
 end
