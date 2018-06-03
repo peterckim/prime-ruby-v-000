@@ -13,3 +13,5 @@ def prime?(input)
   end
   return true
 end
+
+prime?(-1)
